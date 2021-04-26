@@ -56,15 +56,39 @@
 		E62EA4CF262B298C001021AE /* Project2 */ = {
 			isa = PBXGroup;
 			children = (
-				E62EA4D0262B298C001021AE /* AppDelegate.swift */,
-				E62EA4D2262B298C001021AE /* SceneDelegate.swift */,
-				E62EA4D4262B298C001021AE /* ViewController.swift */,
-				E62EA4D6262B298C001021AE /* Main.storyboard */,
+				E62EA5772636A3A8001021AE /* AppDelegate */,
+				E62EA5792636A3B1001021AE /* Controllers */,
+				E62EA57B2636A3BB001021AE /* Views */,
 				E62EA4D9262B2993001021AE /* Assets.xcassets */,
-				E62EA4DB262B2993001021AE /* LaunchScreen.storyboard */,
 				E62EA4DE262B2993001021AE /* Info.plist */,
 			);
 			path = Project2;
+			sourceTree = "<group>";
+		};
+		E62EA5772636A3A8001021AE /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				E62EA4D0262B298C001021AE /* AppDelegate.swift */,
+				E62EA4D2262B298C001021AE /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		E62EA5792636A3B1001021AE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E62EA4D4262B298C001021AE /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E62EA57B2636A3BB001021AE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E62EA4D6262B298C001021AE /* Main.storyboard */,
+				E62EA4DB262B2993001021AE /* LaunchScreen.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
